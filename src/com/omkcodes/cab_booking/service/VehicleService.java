@@ -1,7 +1,7 @@
-package com.omkcodes.project.services;
+package com.omkcodes.cab_booking.service;
 
-import com.omkcodes.project.model.Vehicle;
-import com.omkcodes.project.enums.VehicleStatus;
+import com.omkcodes.cab_booking.model.Vehicle;
+import com.omkcodes.cab_booking.enums.VehicleStatus;
 
 import java.util.HashMap;
 import java.util.InputMismatchException;
@@ -77,7 +77,6 @@ public class VehicleService {
         }
         return vehicle;
     }
-
     public void showAllVehicles() {
         if (vehicleList.isEmpty()) {
             System.out.println("No vehicles available.");

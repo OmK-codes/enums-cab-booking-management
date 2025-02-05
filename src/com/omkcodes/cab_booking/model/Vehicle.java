@@ -1,12 +1,10 @@
-package com.omkcodes.project.model;
+package com.omkcodes.cab_booking.model;
 
-import com.omkcodes.project.enums.VehicleType;
-import com.omkcodes.project.enums.VehicleStatus;
+import com.omkcodes.cab_booking.enums.VehicleType;
+import com.omkcodes.cab_booking.enums.VehicleStatus;
 
 public class Vehicle {
     private String vehicleId;
-    private VehicleType type;
-    private VehicleStatus status;
     private String model;
     private String registrationNumber;
     private String color;
@@ -18,8 +16,6 @@ public class Vehicle {
     public String toString() {
         return "Vehicle{" +
                 "vehicleId='" + vehicleId + '\'' +
-                ", type='" + type + '\'' +
-                ", status='" + status + '\'' +
                 ", model='" + model + '\'' +
                 ", registrationNumber='" + registrationNumber + '\'' +
                 ", color='" + color + '\'' +
@@ -29,28 +25,13 @@ public class Vehicle {
                 '}';
     }
 
-    public VehicleStatus getStatus() {
-        return status;
-    }
 
-    public void setStatus(VehicleStatus status) {
-        this.status = status;
-    }
 
     public String getVehicleId() {
         return vehicleId;
     }
-
     public void setVehicleId(String vehicleId) {
         this.vehicleId = vehicleId;
-    }
-
-    public VehicleType getType() {
-        return type;
-    }
-
-    public void setType(VehicleType type) {
-        this.type = type;
     }
 
     public double getPerKmRate() {

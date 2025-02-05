@@ -1,4 +1,4 @@
-package com.omkcodes.project.enums;
+package com.omkcodes.cab_booking.enums;
 
 public enum VehicleStatus {
     AVAILABLE,

@@ -1,6 +1,6 @@
-package com.omkcodes.project.model;
+package com.omkcodes.cab_booking.model;
 
-import com.omkcodes.project.enums.PassengerStatus;
+import com.omkcodes.cab_booking.enums.PassengerStatus;
 
 public class Passenger {
     private String passengerId;

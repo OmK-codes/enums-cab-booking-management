@@ -1,7 +1,7 @@
-package com.omkcodes.project.services;
+package com.omkcodes.cab_booking.service;
 
-import com.omkcodes.project.model.Booking;
-import com.omkcodes.project.enums.BookingStatus;
+import com.omkcodes.cab_booking.model.Booking;
+import com.omkcodes.cab_booking.enums.BookingStatus;
 
 import java.util.HashMap;
 import java.util.InputMismatchException;

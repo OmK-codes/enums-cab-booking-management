@@ -1,7 +1,7 @@
-package com.omkcodes.project.services;
+package com.omkcodes.cab_booking.service;
 
-import com.omkcodes.project.model.Driver;
-import com.omkcodes.project.enums.DriverStatus;
+import com.omkcodes.cab_booking.model.Driver;
+import com.omkcodes.cab_booking.enums.DriverStatus;
 
 import java.util.HashMap;
 import java.util.InputMismatchException;
